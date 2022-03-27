@@ -1,6 +1,6 @@
 package com.practice.Java_Assigments;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
 public class Check {
@@ -24,7 +24,11 @@ public class Check {
 			System.out.println("Contains all the alphabets");
 		else
 			System.out.println("Does not contains all the alphabets");
-		
+
 
 	}
 }
+
+
+//Time complexity of this solution is O(n).
+//Space complexity of this solution is O(1)
