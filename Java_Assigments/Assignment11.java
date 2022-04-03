@@ -2,11 +2,9 @@ package com.practice.Java_Assigments;
 
 
 import java.io.*;
-		import java.util.HashMap;
-		import java.util.Scanner;
-//Using TextFile and a Map<Character,Integer>,
-// create a program that takes the file name as a command line argument and counts the
-// occurrence of all the different characters
+import java.util.HashMap;
+import java.util.Scanner;
+
 public class Assignment11 {
 	public static void checkOccurence(String filename)
 	{
@@ -41,8 +39,8 @@ public class Assignment11 {
 
 	public static void main(String[] args) {
 		HashMap map=new HashMap();
-		Scanner scan=new Scanner(System.in);
-		String string=scan.next();
+		Scanner sc=new Scanner(System.in);
+		String string=sc.next();
 		checkOccurence(string);
 	}
 
